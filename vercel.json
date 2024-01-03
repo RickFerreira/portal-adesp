@@ -1,0 +1,9 @@
+{
+    "builds": [
+      { "src": "/*", "use": "@vercel/static" }
+    ],
+    "engines": {
+      "vite": "^5.0.10"
+    }
+  }
+  
