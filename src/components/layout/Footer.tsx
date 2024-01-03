@@ -1,4 +1,3 @@
-import {FaInstagram, FaLinkedin, FaGithub, FaMousePointer} from 'react-icons/fa'
 import styles from './Footer.module.css'
 
 function Footer() {
