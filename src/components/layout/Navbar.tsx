@@ -16,7 +16,16 @@ function Navbar() {
                         <Link to="/"><FaHome className={styles.icon}/>Inicio</Link>
                     </li>
                     <li className={styles.item}>
-                        <Link to="/cursos"><FaGraduationCap className={styles.icon}/>Cursos</Link>
+                        <Link to="/"><FaHome className={styles.icon}/>Matriz</Link>
+                    </li>
+                    <li className={styles.item}>
+                        <Link to="/"><FaHome className={styles.icon}/>Horários</Link>
+                    </li>
+                    <li className={styles.item}>
+                        <Link to="/materiais"><FaGraduationCap className={styles.icon}/>Materiais</Link>
+                    </li>
+                    <li className={styles.item}>
+                        <Link to="/"><FaHome className={styles.icon}/>Fórum</Link>
                     </li>
                     <li className={styles.item}>
                         <Link to="/contact"><FaPhoneSquareAlt className={styles.icon}/>Contatos</Link>

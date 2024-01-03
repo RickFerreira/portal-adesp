@@ -4,22 +4,8 @@ import styles from './Footer.module.css'
 function Footer() {
   return (
     <footer className={styles.footer}>
-      <ul className={styles.social_list}>
-        <li>
-          <FaInstagram />
-        </li>
-        <li>
-          <FaGithub />
-        </li>
-        <li>
-          <FaMousePointer />
-        </li>
-        <li>
-          <FaLinkedin />
-        </li>
-      </ul>
       <p className={styles.copy_right}>
-        <span>Engenhocos - By Rick & Lucas & Paty</span> &copy; 2023
+        <span>ADEPS - By Rick & Lucas & Paty</span> &copy; 2024
       </p>
     </footer>
   )

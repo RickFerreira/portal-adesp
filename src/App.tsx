@@ -1,10 +1,9 @@
 
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Home from './components/pages/Home'
-import Cursos from './components/pages/Cursos'
 import Contact from './components/pages/Contact'
 
-import Engenharia from './components/pages/cursos/Engenharia'
+import Materiais from './components/pages/Materiais'
 
 import Periodo1 from './components/pages/periodos/Periodo1'
 
@@ -21,10 +20,10 @@ function App() {
       <Container customClass="min-height">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="cursos/*" element={<Cursos />} />
+
           <Route path="contact/*" element={<Contact />} />
 
-          <Route path="engenharia/*" element={<Engenharia />} />
+          <Route path="materiais/*" element={<Materiais />} />
 
           <Route path="periodo1/*" element={<Periodo1 />} />
 

@@ -1,28 +1,31 @@
 import { Link } from 'react-router-dom'
-import styles from './Periodo1.module.css'
+import styles from './Materiais.module.css'
 
 function ADS() {
     return(
         <section className={styles.home_container}>
-            <h1 className={styles.titulo}>1° Período</h1>
+            <h1 className={styles.titulo}>ADS</h1>
             <ul className={styles.list}>
                 <li className={styles.item}>
-                    <Link to="/Algoritmos">Algoritmos e programação</Link>
+                    <Link to="/Periodo1">1° Período</Link>
                 </li>
                 <li className={styles.item}>
-                    <Link to="/Periodo1">Inglês Instrumental</Link>
+                    <Link to="/Periodos">2° Período</Link>
                 </li>
                 <li className={styles.item}>
-                    <Link to="/Periodo1">Introdução à Computação</Link>
+                    <Link to="/Periodos">3° Período</Link>
                 </li>
                 <li className={styles.item}>
-                    <Link to="/Periodo1">Laboratório de Algoritmos e Programação</Link>
+                    <Link to="/Periodos">4° Período</Link>
                 </li>
                 <li className={styles.item}>
-                    <Link to="/Periodo1">Pré-Cálculo</Link>
+                    <Link to="/Periodos">5° Período</Link>
                 </li>
                 <li className={styles.item}>
-                    <Link to="/Periodo1">Sistemas Digitais I</Link>
+                    <Link to="/Periodos">6° Período</Link>
+                </li>
+                <li className={styles.item}>
+                    <Link to="/Periodos">Disciplinas Optativas</Link>
                 </li>
             </ul>
         </section>

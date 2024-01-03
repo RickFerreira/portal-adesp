@@ -1,6 +1,6 @@
 import styles from './Algoritmos.module.css'
 
-function Engenharia() {
+function ADS() {
     return(
         <section className={styles.home_container}>
             <h1 className={styles.titulo}>Algoritmos e programação</h1>
@@ -67,4 +67,4 @@ function Engenharia() {
         </section>
     )
 }
-export default Engenharia
+export default ADS
